@@ -4,8 +4,9 @@
       <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="storybook-version" content="2.35.3">
-        <title>React Storybook</title>
+        <meta name="storybook-version" content="3.2.3">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+        <title>Storybook</title>
         <style>
           /*
             When resizing panels, the drag event breaks if the cursor
@@ -34,10 +35,17 @@
           .btn:hover{
             background-color: #eee
           }
+
+          /* Remove blue outline defined by the user argent*/
+          :focus {
+            outline: none !important;
+          }
         </style>
+        
       </head>
       <body style="margin: 0;">
         <div id="root"></div>
-        <script src="static/manager.9c51dfd1bc69c2b21ac0.bundle.js"></script>
+        <script src="https://mikhail-hatsilau.github.io/static/manager.3eb28db2fe90064d30cb.bundle.js"></script>
       </body>
     </html>
+  
